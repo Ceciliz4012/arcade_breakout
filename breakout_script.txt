@@ -1,0 +1,7 @@
+clear
+reset
+as os os
+as breakout libc breakout
+ld os
+ld breakout
+break set TRAP_HALT
